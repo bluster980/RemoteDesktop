@@ -1,0 +1,14 @@
+{
+    "name": "Linux Mint Environment",
+    "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu-20.04",
+    "postCreateCommand": "./setup.sh",
+    "extensions": [
+      "ms-vscode.cpptools",
+      "ms-python.python"
+    ],
+    "settings": {
+      "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "forwardPorts": [3389]
+  }
+  
